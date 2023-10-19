@@ -1,0 +1,29 @@
+body {
+  background-color: whitesmoke;
+}
+
+.score {
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: fit-content;
+}
+
+.game {
+  display: flex;
+  place-items: center;
+}
+
+button {
+  margin: auto;
+  padding-top: 2px;
+  height: fit-content;
+  width: fit-content;
+}
+
+h3 {
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: fit-content;
+}

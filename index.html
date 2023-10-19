@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="score">
+      <p>Your score:</p>
+      <p id="hum"></p>
+      <p>Computer score:</p>
+      <p id="com"></p>
+    </div>
+    <div class="game">
+      <button onclick="Play('rock')">
+        <img src="https://img.icons8.com/ios/100/000000/hand-rock.png" />
+      </button>
+      <button onclick="Play('scissors')">
+        <img
+          src="https://img.icons8.com/ios/100/000000/hand-scissors--v2.png"
+        />
+      </button>
+      <button onclick="Play('paper')">
+        <img src="https://img.icons8.com/wired/64/000000/hand.png" />
+      </button>
+    </div>
+    <h3>The computer choose :</h3>
+    <h3 id="compChoice"></h3>
+    <br />
+    <h3>you have :</h3>
+    <h3 id="results"></h3>
+    <script src="script.js"></script>
+  </body>
+</html>
